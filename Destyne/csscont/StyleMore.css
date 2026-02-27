@@ -1,0 +1,122 @@
+body{
+    font-family: 'Arial', sans-serif;
+    margin: 0rem;
+    padding: 0rem;
+    background-color:  #219EBC
+}
+header{
+    background:  #1B3C6B;
+    padding: 0.5rem 0;
+}
+header .encabezado{
+    max-width: 90rem;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0rem 1.5rem;
+}
+nav  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+nav .logo1{
+    display: flex;
+    color: #fff;
+}
+
+.logo1 img{
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    margin-left: 0.125rem;
+}
+
+.logo1 span{
+    font-size: 5rem;
+    position: end;
+} 
+nav ul {
+    width: 80%;
+    margin: auto;
+    border-radius: 0.625rem;
+    justify-content: space-between;
+    list-style-type: none;
+    display: inline-flex;
+} 
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 0.625rem;
+    color: #000000;
+    padding: 1.4rem 3rem;
+}
+nav ul li a:hover{
+    margin: 1rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    transform: scale(1.1);
+    transform: 0.8s;
+    transition: 1.2s;
+    zoom: 1;
+}
+.logo1 img{
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: 1.25rem;
+    border-radius: 1rem;
+    object-fit: cover;
+    filter: drop-shadow(0px 17px 7px #000000ce);
+}
+.logo1 img:hover{
+    margin: 1.25rem;
+    border-radius: 1rem;
+    transform: scale(1.1);
+    transition: 0.8s;
+    transform: 0.5s;
+    zoom: 1;
+}
+h2{
+    text-align: center;
+    background-color: #4747b9;
+    padding: 1rem; 
+}
+.hero {
+    display: flex;
+    background-color: #91ccffce;
+    padding: 2.5rem;
+    border-radius: 0.938rem;
+    margin: 1.25rem;
+    align-items: center;
+}
+.hero-content {
+    flex: 1;
+}
+.hero-content h1 {
+    font-size: 2.25rem;
+    color: #000000;
+}
+.hero-content p {
+    color: #33006d;
+}
+.hero-content .read-more {
+    background-color: #6e6efd;
+    color: #000000;
+    padding: 0.625rem 20px;
+    text-decoration: none;
+    border-radius: 0.313rem;
+}
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+.hero-image img {
+    height: 47.5rem;
+    width: 26.25rem;
+    border-radius: 1.25rem;
+    filter: drop-shadow(0px 17px 7px #52799bce);
+}
+h3{ 
+    font-size: x-large;
+    padding: 0.75rem;
+}
