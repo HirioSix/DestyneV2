@@ -109,5 +109,58 @@ img:hover{
     transition: 0.8s;
     transform: 1s;
 }
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
 
+    /* Navegación en columna */
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
 
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 0.3rem;
+    }
+
+    nav ul li a {
+        padding: 0.8rem 1.2rem;
+        letter-spacing: 0.1rem;
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+    }
+
+    /* Logo más pequeño */
+    .logo1 img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .logo1 span {
+        font-size: 3rem;
+    }
+
+    /* Imágenes de continentes en columna */
+    .Conoce {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 90vw;
+        height: auto;
+        margin: 0.8rem auto;
+    }
+
+    /* Links de "maybe you are looking" */
+    .Conocenos ul li a {
+        font-size: 1rem;
+        padding: 0.8rem;
+        margin: 0.8rem 0.5rem;
+    }
+}
