@@ -7,7 +7,6 @@ body{
 }
 header{
     background:  #0a1931;
-    color: #f6fafd;
     padding: 0.5rem 0;
 }
 header .encabezado{
@@ -40,7 +39,6 @@ nav .logo1{
     position: end;
 } 
 nav ul {
-    color: #f6fafd;
     width: 80%;
     margin: auto;
     border-radius: 0.625rem;
@@ -52,7 +50,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 1.3rem;
     letter-spacing: 0.625rem;
-    color: #000000;
+    color: #f6fafd;
     padding: 1.4rem 3rem;
 }
 nav ul li a:hover{
@@ -66,7 +64,7 @@ nav ul li a:hover{
 }
 h2{
     text-align: center;
-    background-color:  #1a3d63;
+    background-color: #1a3d63;
     color: #f6fafd;
     padding: 1rem;
 }
