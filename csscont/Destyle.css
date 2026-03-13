@@ -40,6 +40,7 @@ nav .logo1{
     position: end;
 } 
 nav ul {
+    color: #f6fafd;
     width: 80%;
     margin: auto;
     border-radius: 0.625rem;
